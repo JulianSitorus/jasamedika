@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #fff;
+    color: black;
+
+    padding-top: 15px;
+}
+
+header .user-profile{
+    margin: 14px 20px 10px 20px;
+    font-size: 23px;
+    display: flex;
+}
+
+header .user-profile i{
+    font-size: 35px;
+}
+
+header .user-profile .name-email{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+header .judul{
+    display: flex;
+    margin: 15px 40px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+header .judul img{
+    margin-top: -35px;
+}
+
+
+header .history-button button{
+    margin: 13px 28px;
+    border: 1px solid #fff;
+    background-color: #0F75BD;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+header .history-button button:hover{
+    background-color: #fff;
+    border: 1px solid #0F75BD;
+    color: #0F75BD;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover .fa-key {
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* ============================================================================= */
+
+.main{
+    background-color:#F0F0F0;
+    color: #27274f;
+    padding: 20px;
+    width: 100%;
+    min-height: 661px;
+}
+
+.main h1{
+    padding-left: 10px;
+    font-weight: 300;
+    /* color: #ff7835; */
+}
+
+.main .separator{
+    margin: 10px 0 20px 10px;
+    width: 98%;
+    height: 1px;
+    background-color: black;
+}
+
+.main .category-box{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+.main .category-box h1{
+    color: #27274f;
+}
+
+.main .voucher-box{
+    margin: 20px;
+    border-bottom: 4px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 32px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border-radius: 15px;
+    width: 355px;
+    /* width: 29%; */
+}
+
+.main .voucher-box:hover{
+    border-bottom: 4px solid #fff;
+    background: #0F75BD;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.main .voucher-box img{
+    width: 100%;
+    height: 205px;
+    border-radius: 15px;
+}
+
+.main .voucher-box p{
+    margin: 10px 10px 0px 10px;
+}
+
+.main .voucher-box .nama-voucher{
+   font-weight: 600;
+}
+
+.main .voucher-box .store-claim{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 10px 0;
+}
+
+.main .voucher-box .store-claim button{
+    margin-top: 2.5px;
+    padding: 5px 10px;
+    border: 1px solid #0F75BD;
+    background-color: #fff;
+    color: #0F75BD;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main .voucher-box .store-claim button:hover{
+    border: 1.2px solid #fff;
+    /* background-color: #ff7835; */
+    /* background:linear-gradient(to right, red, #eeeeee); */
+    color: #0F75BD;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+
+.main .vouchers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+}
